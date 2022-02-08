@@ -1,0 +1,23 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+  }
+  
+  html {
+      font-size: 62.5%;
+      /* font-size: 10px; */
+      /* 1 rem is now 10px */
+  }
+  body {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    /* font-size: 16px; */
+    line-height: 1.7;
+    color: $color-grey-dark;
+    /* first it was 30px, so we devide 30 by 10, because we have 10 px in the html set */
+    padding: 3rem; 
+    box-sizing: border-box;
+  }
